@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/aubonbeurre/kuard/pkg/apiutils"
+	"github.com/aubonbeurre/kuard/pkg/htmlutils"
 	"github.com/julienschmidt/httprouter"
-	"github.com/kubernetes-up-and-running/kuard/pkg/apiutils"
-	"github.com/kubernetes-up-and-running/kuard/pkg/htmlutils"
 )
 
 const maxHistory = 20

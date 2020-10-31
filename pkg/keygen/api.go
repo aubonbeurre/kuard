@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/kubernetes-up-and-running/kuard/pkg/apiutils"
+	"github.com/aubonbeurre/kuard/pkg/apiutils"
 	"github.com/julienschmidt/httprouter"
 )
 

@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/aubonbeurre/kuard/pkg/apiutils"
 	"github.com/julienschmidt/httprouter"
-	"github.com/kubernetes-up-and-running/kuard/pkg/apiutils"
 	"github.com/miekg/dns"
 )
 

@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
+	"github.com/aubonbeurre/kuard/pkg/apiutils"
 	"github.com/julienschmidt/httprouter"
-	"github.com/kubernetes-up-and-running/kuard/pkg/apiutils"
 )
 
 type Server struct {

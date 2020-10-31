@@ -22,8 +22,8 @@ import (
 	"runtime/debug"
 	"strconv"
 
+	"github.com/aubonbeurre/kuard/pkg/apiutils"
 	"github.com/julienschmidt/httprouter"
-	"github.com/kubernetes-up-and-running/kuard/pkg/apiutils"
 )
 
 type MemoryAPI struct {

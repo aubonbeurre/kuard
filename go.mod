@@ -1,4 +1,4 @@
-module github.com/kubernetes-up-and-running/kuard
+module github.com/aubonbeurre/kuard
 
 go 1.12
 
