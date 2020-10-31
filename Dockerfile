@@ -19,14 +19,13 @@ ENV ARCH=amd64
 ENV VERSION=test
 
 # Do the build. Script is part of incoming sources.
-# RUN build/build.sh
-RUN ["/bin/bash", "-c", "build/build.sh"]
+RUN build/build.sh
 
 # STAGE 2: Runtime
-#FROM alpine
+FROM alpine
 
-#USER nobody:nobody
-#COPY --from=build /go/bin/kuard /kuard
+USER nobody:nobody
+COPY --from=build /go/bin/kuard /kuard
 
-#CMD [ "/kuard" ]
-CMD ping localhost
+CMD [ "/kuard" ]
+# CMD ping localhost
